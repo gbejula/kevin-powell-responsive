@@ -13,6 +13,30 @@ h1 {
   font-size: 3rem;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.row h2 {
+  color: #87629A;
+}
+
+.nurow {
+  background-color: #136C72;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.nurow .col h2 {
+  color: white;
+}
+
+
 .main {
   background-color: #23424a;
   color: white;
